@@ -38,11 +38,11 @@ class RunvikApp extends StatelessWidget {
           elevation: 0,
           centerTitle: true,
         ),
-        cardTheme: CardTheme(
-          color: const Color(0xFF2A2A2A),
+        cardTheme: const CardTheme(
+          color: Color(0xFF2A2A2A),
           elevation: 4,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
+            borderRadius: BorderRadius.all(Radius.circular(12)),
           ),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
