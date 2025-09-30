@@ -38,7 +38,7 @@ class RunvikApp extends StatelessWidget {
           elevation: 0,
           centerTitle: true,
         ),
-        cardTheme: const CardTheme(
+        cardTheme: const CardThemeData(
           color: Color(0xFF2A2A2A),
           elevation: 4,
           shape: RoundedRectangleBorder(
