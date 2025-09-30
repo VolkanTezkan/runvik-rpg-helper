@@ -74,7 +74,7 @@ class DiceButton extends StatelessWidget {
                           ..setEntry(3, 2, 0.001)
                           ..rotateX(-0.2)
                           ..rotateY(0.15),
-                        child: Container(
+                        child: SizedBox(
                           width: 50,
                           height: 50,
                           child: CustomPaint(
